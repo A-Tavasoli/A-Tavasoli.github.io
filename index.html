@@ -300,42 +300,8 @@
       box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24);
     }
 
-    .about-card p:last-child,
     .card p:last-child {
       margin-bottom: 0;
-    }
-
-    .about-card {
-      display: grid;
-      grid-template-columns: 1.3fr 0.9fr;
-      gap: 22px;
-      align-items: start;
-    }
-
-    .about-highlights {
-      display: grid;
-      gap: 12px;
-    }
-
-    .highlight {
-      padding: 14px 16px;
-      border-radius: 16px;
-      background: rgba(2, 6, 23, 0.32);
-      border: 1px solid rgba(148, 163, 184, 0.10);
-    }
-
-    .highlight-title {
-      font-size: 0.88rem;
-      color: #a5f3fc;
-      font-weight: 700;
-      margin-bottom: 6px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .highlight-text {
-      color: #cbd5e1;
-      font-size: 0.96rem;
     }
 
     .grid-2 {
@@ -528,7 +494,6 @@
     @media (max-width: 1080px) {
       .hero-inner,
       .page-shell,
-      .about-card,
       .grid-2 {
         grid-template-columns: 1fr;
       }
@@ -578,7 +543,6 @@
     <div class="nav-inner">
       <div class="brand">Ali Tavasoli</div>
       <div class="nav-links">
-        <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#teaching">Teaching</a>
@@ -640,42 +604,6 @@
 
   <div class="page-shell">
     <main class="main-column">
-
-      <section id="about">
-        <div class="section-heading">
-          <h2>About</h2>
-        </div>
-
-        <div class="card about-card">
-          <div class="about-text">
-            <p>
-              I am an Assistant Professor at James Madison University. My research focuses on
-              nonlinear dynamical systems, control, optimization, and learning-based methods,
-              with an emphasis on principled theory and mathematically grounded algorithm design.
-            </p>
-            <p>
-              My work spans adaptive control, nonlinear stability theory, contraction-inspired methods,
-              online optimization, and control-oriented learning, with applications including automated
-              insulin delivery and other complex engineered systems.
-            </p>
-          </div>
-
-          <div class="about-highlights">
-            <div class="highlight">
-              <div class="highlight-title">Primary Interests</div>
-              <div class="highlight-text">Nonlinear control theory, Adaptive control, Nonlinear analysis tools, Nonlinear dynamics and chaos, First-order methods in optimization, online learning</div>
-            </div>
-            <div class="highlight">
-              <div class="highlight-title">Applications</div>
-              <div class="highlight-text">Mechanical engineering vehicles and robotics</div>
-            </div>
-            <div class="highlight">
-              <div class="highlight-title">Approach</div>
-              <div class="highlight-text">My research combines first-principles approaches from mechanical engineering with control theory and advanced nonlinear stability and convergence analysis for ODEs, PDEs, and optimization problems.</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section id="research">
         <div class="section-heading">
