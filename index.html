@@ -352,6 +352,38 @@
       font-weight: 600;
     }
 
+    .paper-list {
+      list-style: decimal;
+      margin: 14px 0 0;
+      padding-left: 1.4em;
+      color: #cbd5e1;
+    }
+
+    .paper-list li {
+      margin-bottom: 12px;
+      padding-left: 4px;
+    }
+
+    .paper-list li::marker {
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+
+    .paper-title {
+      display: block;
+      color: #e2e8f0;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 3px;
+    }
+
+    .paper-meta {
+      display: block;
+      color: #94a3b8;
+      font-size: 0.85rem;
+      line-height: 1.45;
+    }
+
     .teaching-list .card,
     .publication-list .card {
       margin-bottom: 16px;
@@ -617,54 +649,198 @@
         <div class="grid-2">
           <div class="card">
             <h3>Adaptive and Nonlinear Control</h3>
-            <p>
-              Control design, stability analysis, adaptation laws, and rigorous treatment of nonlinear
-              systems under uncertainty and feedback.
-            </p>
-            <div class="tag-row">
-              <span class="tag">Adaptive control</span>
-              <span class="tag">Stability</span>
-              <span class="tag">Nonlinear systems</span>
-            </div>
+            <ol class="paper-list">
+              <li>
+                <span class="paper-title">A new discrete-time robust adaptive time-delay control for a class of uncertain nonlinear strict-feedback systems using sliding mode</span>
+                <span class="paper-meta">O. Mohammadpour, A. Tavasoli — ISA Transactions, 2019</span>
+              </li>
+              <li>
+                <span class="paper-title">A control-oriented dynamic model for sit-to-stand motion with fixed support</span>
+                <span class="paper-meta">S. Taghvaei, A. Tavasoli, N. Feizi, Z. Rajestari, M. Abdi — Proc. IMechE, Part K: Journal of Multi-body Dynamics, 2018</span>
+              </li>
+              <li>
+                <span class="paper-title">Optimal control of skid steer wheeled mobile robots by analytical approach</span>
+                <span class="paper-meta">M. Parhikhteh, O. Mohammadpour, A. Tavasoli — Journal of Solid and Fluid Mechanics, 2017</span>
+              </li>
+              <li>
+                <span class="paper-title">Optimal distribution of braking and steering tire forces subject to stability constraints</span>
+                <span class="paper-meta">A. Tavasoli, M. Naraghi — Scientia Iranica, Transaction B: Mechanical Engineering, 2013</span>
+              </li>
+              <li>
+                <span class="paper-title">Interior-point method to optimize tire force allocation in 4-wheeled vehicles using high-level sliding mode control with adaptive gain</span>
+                <span class="paper-meta">A. Tavasoli, M. Naraghi — Asian Journal of Control, 2013</span>
+              </li>
+              <li>
+                <span class="paper-title">An optimized multi-stage scheme to coordinate steering and braking</span>
+                <span class="paper-meta">A. Tavasoli, M. Naraghi — Iranian Journal of Science and Technology, Transaction B: Engineering, 2013</span>
+              </li>
+              <li>
+                <span class="paper-title">Optimized coordination of brakes and active steering for a 4WS passenger car</span>
+                <span class="paper-meta">A. Tavasoli, M. Naraghi, H. Shakeri — ISA Transactions, 2012</span>
+              </li>
+              <li>
+                <span class="paper-title">Vehicle sliding mode control with adaptive upper bounds: static versus dynamic allocation to saturated tire forces</span>
+                <span class="paper-meta">A. Tavasoli, M. Naraghi — Mathematical Problems in Engineering, 2012</span>
+              </li>
+              <li>
+                <span class="paper-title">An optimizing scheme to achieve maximum handling with guaranteed vehicle dynamics stability</span>
+                <span class="paper-meta">A. Tavasoli, M. Naraghi — Australian Journal of Science and Technology, 2011</span>
+              </li>
+              <li>
+                <span class="paper-title">Comparison of static and dynamic control allocation techniques for integrated vehicle control</span>
+                <span class="paper-meta">A. Tavasoli, M. Naraghi — IFAC Proceedings Volumes, 2011</span>
+              </li>
+              <li>
+                <span class="paper-title">Vehicle stability enhancement — an adaptive optimal approach to the distribution of tyre forces</span>
+                <span class="paper-meta">M. Naraghi, A. Roshanbin, A. Tavasoli — Proc. IMechE, Part D: Journal of Automobile Engineering, 2010</span>
+              </li>
+              <li>
+                <span class="paper-title">Flocking of a team of Lagrangian agents</span>
+                <span class="paper-meta">A. Tavasoli, S. Taghvaei, M. Eghtesad — IEEE International Conference on Robotics and Biomimetics (ROBIO), 2009</span>
+              </li>
+              <li>
+                <span class="paper-title">Simulation of a humanoid soccer robot team: description proposal for RoboCup 2008 Sama3D</span>
+                <span class="paper-meta">A. Tavasoli, R. Hematpour, H. N. Meghrazeh, A. Khermandar, S. A. Adeli — RoboCup, 2008</span>
+              </li>
+              <li>
+                <span class="paper-title">Combined adaptive-robust and neural network control of two RLED cooperating robots using backstepping design</span>
+                <span class="paper-meta">H. Jafarian, M. Eghtesad, A. Tavasoli — International Journal of Robotics and Automation, 2008</span>
+              </li>
+              <li>
+                <span class="paper-title">Neural network control of two 6-DOF electrically driven cooperating robot manipulators carrying a rigid object</span>
+                <span class="paper-meta">H. Jafarian, M. Eghtesad, A. Tavasoli — Iranian Journal of Science and Technology, Transaction B: Engineering, 2008</span>
+              </li>
+              <li>
+                <span class="paper-title">Neural network control of two electrically driven cooperating 6-DOF robot manipulators</span>
+                <span class="paper-meta">H. Jafarian, M. Eghtesad, A. Tavasoli — World Automation Congress, 2006</span>
+              </li>
+              <li>
+                <span class="paper-title">Combined adaptive-robust and neural network control of RLED robot manipulators using backstepping design</span>
+                <span class="paper-meta">H. Jafarian, M. Eghtesad, A. Tavasoli — 9th IEEE International Workshop on Advanced Motion Control, 2006</span>
+              </li>
+            </ol>
           </div>
 
           <div class="card">
-            <h3>Nonlinear Dynamics and Chaos</h3>
-            <p>
-              Dynamical behavior in nonlinear systems, including qualitative structure, complexity,
-              and geometric viewpoints motivated by chaos and long-term behavior.
-            </p>
-            <div class="tag-row">
-              <span class="tag">Chaos</span>
-              <span class="tag">Dynamics</span>
-              <span class="tag">Geometry</span>
-            </div>
+            <h3>Nonlinear Dynamics</h3>
+            <ol class="paper-list">
+              <li>
+                <span class="paper-title">The art of interconnections: achieving maximum algebraic connectivity in multilayer networks</span>
+                <span class="paper-meta">A. Tavasoli, H. Shakeri, E. Ardjmand, S. Rahman — Network Science, 2024</span>
+              </li>
+              <li>
+                <span class="paper-title">Operator-based detecting, learning, and stabilizing unstable periodic orbits of chaotic attractors</span>
+                <span class="paper-meta">A. Tavasoli, H. Shakeri — American Control Conference (ACC), 2024</span>
+              </li>
+              <li>
+                <span class="paper-title">Characterizing the load profile in power grids by Koopman mode decomposition of interconnected dynamics</span>
+                <span class="paper-meta">A. Tavasoli, B. Moradijamei, H. Shakeri — arXiv:2304.07832, 2023</span>
+              </li>
+              <li>
+                <span class="paper-title">An interpretable approach to load profile forecasting in power grids using Galerkin-approximated Koopman pseudospectra</span>
+                <span class="paper-meta">A. Tavasoli, B. Moradijamei, H. Shakeri — arXiv e-prints, 2023</span>
+              </li>
+              <li>
+                <span class="paper-title">Designing optimal multiplex networks for certain Laplacian spectral properties</span>
+                <span class="paper-meta">H. Shakeri, A. Tavasoli, E. Ardjmand, P. Poggi-Corradini — Physical Review E, 2020</span>
+              </li>
+            </ol>
           </div>
 
           <div class="card">
-            <h3>Contraction and Non-Euclidean Methods</h3>
-            <p>
-              Stability and learning through contractive vector fields, non-Euclidean metrics,
-              and structure-aware methods for analysis and adaptation.
-            </p>
-            <div class="tag-row">
-              <span class="tag">Contraction</span>
-              <span class="tag">Metrics</span>
-              <span class="tag">Learning</span>
-            </div>
+            <h3>Learning and Control</h3>
+            <ol class="paper-list">
+              <li>
+                <span class="paper-title">System and method for calculating an insulin dosing function</span>
+                <span class="paper-meta">A. El Fathi, M. D. Breton, E. C. Pryor, A. Tavasoli, H. Shakeri — US Patent Application 19/335,674, 2026</span>
+              </li>
+              <li>
+                <span class="paper-title">Graph-embedded reinforcement learning for dynamic pricing and advertising under network effects</span>
+                <span class="paper-meta">E. Ardjmand, E. Izadi, A. Tavasoli, B. Moradi-Jamei, H. Shakeri — Applied Soft Computing, 2025</span>
+              </li>
+              <li>
+                <span class="paper-title">Deep reinforcement learning bolus priming for intelligent prandial management</span>
+                <span class="paper-meta">A. Tavasoli, A. El Fathi, H. Shakeri, B. Kovatchev, M. Breton — Diabetes Technology &amp; Therapeutics, 2025</span>
+              </li>
+              <li>
+                <span class="paper-title">Online meal detection based on CGM data dynamics</span>
+                <span class="paper-meta">A. Tavasoli, H. Shakeri — IFAC-PapersOnLine, 2025</span>
+              </li>
+              <li>
+                <span class="paper-title">Competitive pricing under local network effects</span>
+                <span class="paper-meta">A. Tavasoli, M. Fazli, E. Ardjmand, W. A. Young II, H. Shakeri — European Journal of Operational Research, 2023</span>
+              </li>
+              <li>
+                <span class="paper-title">A purely data-driven framework for prediction, optimization, and control of networked processes</span>
+                <span class="paper-meta">A. Tavasoli, T. Henry, H. Shakeri — ISA Transactions, 2023</span>
+              </li>
+              <li>
+                <span class="paper-title">Incentive rate determination in viral marketing</span>
+                <span class="paper-meta">A. Tavasoli, H. Shakeri, E. Ardjmand, W. A. Young II — European Journal of Operational Research, 2021</span>
+              </li>
+              <li>
+                <span class="paper-title">Mitigating the risk of infection spread in manual order picking operations: a multi-objective approach</span>
+                <span class="paper-meta">E. Ardjmand, M. Singh, H. Shakeri, A. Tavasoli, W. A. Young II — Applied Soft Computing, 2021</span>
+              </li>
+            </ol>
           </div>
 
           <div class="card">
-            <h3>First-Order Methods for Online Learning and Control</h3>
-            <p>
-              Optimization-based perspectives on learning and control, especially first-order algorithms
-              for sequential decision-making, online adaptation, and feedback design.
-            </p>
-            <div class="tag-row">
-              <span class="tag">Optimization</span>
-              <span class="tag">Online learning</span>
-              <span class="tag">Control</span>
-            </div>
+            <h3>PDEs and Evolution Equations</h3>
+            <ol class="paper-list">
+              <li>
+                <span class="paper-title">Boundary control of a circular curved beam using active disturbance rejection control</span>
+                <span class="paper-meta">A. Tavasoli — International Journal of Control, 2019</span>
+              </li>
+              <li>
+                <span class="paper-title">Well-posedness and exponential stability of a two-dimensional vibration model of a boundary-controlled curved beam with tip mass</span>
+                <span class="paper-meta">A. Tavasoli — International Journal of Systems Science, 2018</span>
+              </li>
+              <li>
+                <span class="paper-title">Active disturbance rejection boundary control of Timoshenko beam with tip mass</span>
+                <span class="paper-meta">A. Tavasoli — ISA Transactions, 2018</span>
+              </li>
+              <li>
+                <span class="paper-title">Adaptive nonlinear boundary control of a hybrid Euler–Bernoulli beam with coupled rigid and flexible dynamics</span>
+                <span class="paper-meta">A. Tavasoli — Iranian Journal of Science and Technology, Transactions of Mechanical Engineering, 2018</span>
+              </li>
+              <li>
+                <span class="paper-title">Dynamic modeling and adaptive robust boundary control of a flexible robotic arm with 2-dimensional rigid body rotation</span>
+                <span class="paper-meta">A. Tavasoli, O. Mohammadpour — International Journal of Adaptive Control and Signal Processing, 2018</span>
+              </li>
+              <li>
+                <span class="paper-title">Adaptive robust boundary control of coupled bending–torsional vibration of beams with only one axis of symmetry</span>
+                <span class="paper-meta">A. Tavasoli, V. Enjilela — International Journal of Adaptive Control and Signal Processing, 2017</span>
+              </li>
+              <li>
+                <span class="paper-title">Robust adaptive boundary control of a perturbed hybrid Euler–Bernoulli beam with coupled rigid and flexible motion</span>
+                <span class="paper-meta">A. Tavasoli — International Journal of Control, Automation and Systems, 2017</span>
+              </li>
+              <li>
+                <span class="paper-title">Active disturbance rejection and Lyapunov redesign approaches for robust boundary control of plate vibration</span>
+                <span class="paper-meta">A. Tavasoli, V. Enjilela — International Journal of Systems Science, 2017</span>
+              </li>
+              <li>
+                <span class="paper-title">Robust boundary stabilization of a vibrating rectangular plate using disturbance adaptation</span>
+                <span class="paper-meta">A. Tavasoli — International Journal of Adaptive Control and Signal Processing, 2016</span>
+              </li>
+              <li>
+                <span class="paper-title">Stabilized MLPG-VF-based method with CBS scheme for laminar flow at high Reynolds and Rayleigh numbers</span>
+                <span class="paper-meta">V. Enjilela, D. Salimi, A. Tavasoli, M. Lotfi — International Journal of Modern Physics C, 2016</span>
+              </li>
+              <li>
+                <span class="paper-title">Adaptive robust boundary control of shaft vibrations under perturbations with unknown upper bounds</span>
+                <span class="paper-meta">A. Tavasoli — International Journal of Adaptive Control and Signal Processing, 2015</span>
+              </li>
+              <li>
+                <span class="paper-title">Dynamic modeling and nonlinear boundary control of a hybrid Euler–Bernoulli beam system with a tip mass</span>
+                <span class="paper-meta">A. Tavasoli — Proc. IMechE, Part K: Journal of Multi-body Dynamics, 2014</span>
+              </li>
+              <li>
+                <span class="paper-title">Two-time scale control and observer design for trajectory tracking of two cooperating robot manipulators moving a flexible beam</span>
+                <span class="paper-meta">A. Tavasoli, M. Eghtesad, H. Jafarian — Robotics and Autonomous Systems, 2009</span>
+              </li>
+            </ol>
           </div>
         </div>
       </section>
